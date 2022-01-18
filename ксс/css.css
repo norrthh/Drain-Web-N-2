@@ -1,0 +1,400 @@
+body {
+    background: #F3F1FD;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(102, 101, 113, 1);
+}
+
+a:hover {
+    color: rgba(254, 114, 68, 1);
+}
+
+span {
+    color: rgba(254, 114, 68, 1);
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    padding-top:30px;
+    text-align: center;
+
+}
+
+header .logo {
+    background-image: url(../имг/logo.png);
+    width: 24.74px;
+    height: 31.53px;
+    position: absolute;
+    background-size: 100%;
+}
+
+header p {
+    margin-left:2rem;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+header .navb a {
+    /* margin-left:1rem; */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding:0 25px;
+}
+
+
+header .navb a:hover {
+    box-shadow: 0 2px 0 0 rgba(254, 114, 68, 1);
+    color:rgba(38, 36, 46, 1);
+    /* /* font-weight: 700; */
+} 
+
+header .navb .active {
+    color:rgba(38, 36, 46, 1);
+    font-weight: 700;
+    box-shadow: 0 2px 0 0 rgba(254, 114, 68, 1);
+}
+
+
+header .navb .cig-in{
+    background: #6347EB;
+    color:white;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding:15px 30px;
+}
+
+header .navb .cig-in:hover {
+    box-shadow: none;
+    color:white;
+}
+
+.index1 .col-6{
+    padding-top:140px;
+}
+
+.index1 .btn {
+    /* width: 207px;
+    height: 62px; */
+    padding: 15px 35px;
+    background: #6652DA;
+    border-radius: 16px;
+    border:none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+/* .index1 .play {
+    padding-top: 20px;
+} */
+
+.index1 .play .imgbutton {
+    width: 80px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../имг/Play.png);
+    background-size: 100%;
+    position: absolute;
+}
+
+.index1 .play h1 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    /* text-align: center; */
+    margin-left:5rem;
+    padding-top:20px;
+}
+
+.index1 .imgindex1 {
+    background-image: url(../имг/joyful-european-girl-checks-nootification-email-box-cellular\ 1.png);
+    width: 546px;
+    height: 555px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.index1 .card {
+    border:none;
+    box-shadow: 4px 1px 22px 2px rgba(102, 82, 218, 0.1);
+    border-radius: 15px;
+    padding:33px 44px;
+}
+
+.index1 .card .imgcard {
+    background-image: url(../имг/Course.png);
+    width: 62px;
+    height: 62px;
+}
+
+.index1 .card h1 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left:15px;
+    padding-top:1rem;
+}
+
+.trud {
+    padding-top:100px;
+}
+
+.trud .logo {
+    margin-top:70px;
+    width: 1201px;
+    height: 31px;
+    background-size: 100%;
+    background-image: url(../имг/Logo2.png);
+    text-align: center;
+    justify-content: center;
+}
+
+.browe {
+    padding-top: 100px;
+}
+
+.browe hr {
+    background: linear-gradient(90.26deg, #AA80FF 0.21%, rgba(160, 113, 255, 0.65) 97.38%);
+    border-radius: 3px;
+    /* transform: rotate(-180deg); */
+    height: 8px;
+    width:130px;
+    opacity: 1;
+    margin: auto;
+    margin-top:20px;
+}
+
+.browe p {
+    font-family: Montserrat;
+    font-size: 16px;;
+    font-style: normal;
+    font-weight: 600;
+    padding-top:1rem;
+    text-align: center;
+}
+
+.browe .card {
+    margin-top:60px;
+    padding:30px 42px;
+    border:none;
+    box-shadow: 0px 2px 20px rgba(31, 31, 51, 0.03);
+    border-radius: 20px;    
+    width: 221px;
+    height: 224px;
+}
+
+.browe .card .img {
+    /* padding:1rem 3rem; */
+    margin-left:1.5rem;
+    background-image: url(../имг/Ui\ UX\ icon.png);
+    width: 96.92px;
+    height: 96.92px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* .browe .card .active{
+    background: linear-gradient(90.26deg, #F99462 0.21%, rgba(249, 148, 98, 0.65) 97.38%);
+} */
+
+.info {
+    padding-top:100px;
+}
+
+.info .img {
+    background-image: url(../имг/Playe\ video.png);
+    width: 600px;
+    height: 544px;
+    border-radius: 90px 5px;
+    background-repeat: no-repeat;
+}
+
+.info p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info .btn {
+    padding:15px 50px;
+    background: #6652DA;
+    border:none;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.info a {
+    text-decoration: underline;
+    color: #4D4D56;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left:31px;
+}
+
+.about {
+    padding-top:100px;
+}
+
+.about .card {
+    background: #FEFFFF;
+    box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.06);
+    border-radius: 10px;
+    border:none;
+    /* width: 590px; */
+    height: 246px;
+    margin-top:80px;
+    color: #3D3D3D;
+}
+
+.about .ava {
+    background-image: url(../имг/Polygon\ 3.png);
+    margin:67px 0px;
+    width: 140px;
+    height: 140px;
+    background-size: 100%;
+}
+
+.about .title {
+    margin-left:20px;
+    margin-top:25px;
+}
+
+.about .title h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about .title p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.about .title .img {
+    background-image: url(../имг/rate.png);
+    width: 140px;
+    height: 19px;
+    background-size: 100%;
+}
+
+/* .become {
+    background-image: url(../имг/african-guy-with-laptop-thinking-sitting-in-chair--7ZEVNTA\ 1.png);
+    width: 1477px;
+    height: 425px;
+    background-size: 100%;
+    margin-top:200px;
+}
+
+.become h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #3D3D3D;
+    text-align: end;
+} */
+
+footer {
+    margin-top:100px;
+    padding:50px 0px;
+    background: rgba(250, 250, 250, 1);
+}
+
+footer h1 {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+footer a, p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;    
+    color: rgba(59, 58, 65, 1);
+}
+
+footer .text {
+    width:150px;
+}
+
+.footer {
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+.footer .logo{
+    background-image: url(../имг/logo.png);
+    width: 24.74px;
+    height: 31.53px;
+    position: absolute;
+    background-size: 100%;
+}
+
+.footer .logo p {
+    margin-left:2rem;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footer h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:end;
+    padding-top: 0.5rem;
+}
